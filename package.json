@@ -1,0 +1,34 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "basic_type": "tsx src/basic_type/basic",
+    "basic_type2": "tsx src/basic_type/fundamental",
+    "basic_type3": "tsx src/basic_type/union",
+    "function_type": "tsx src/function_type/function",
+    "literal": "tsx src/literal_type_enum/enum",
+    "literal2": "tsx src/literal_type_enum/literalType",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxiColmena/trabajo-practico-cuatro-colman-maximo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxiColmena/trabajo-practico-cuatro-colman-maximo/issues"
+  },
+  "homepage": "https://github.com/MaxiColmena/trabajo-practico-cuatro-colman-maximo#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
